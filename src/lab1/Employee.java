@@ -63,8 +63,10 @@ public class Employee {
         this.meetWithHrForBenefitAndSalryInfo();
         this.meetDepartmentStaff();
         this.reviewDeptPolicies();
+        
+        //should validate input for cuibicle ID
 
-        if (metWithHr && metDeptStaff && reviewedDeptPolicies) {
+        if (metWithHr && metDeptStaff && reviewedDeptPolicies) {         
             this.cubeId = cubeId;
             this.movedIn = true;
         } else {
