@@ -5,5 +5,9 @@ package lab2;
  * @author Jwilliams96
  */
 public class Game {
-    GameCharacter mainCharacter = new GameCharacter();
+
+    public Game(String firstCharacter, boolean isMale) {
+
+        GameCharacter mainCharacter = new GameCharacter(firstCharacter, isMale);
+    }
 }
