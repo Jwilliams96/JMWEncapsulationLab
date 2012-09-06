@@ -8,6 +8,8 @@ public class GUI {
 
     private int resolutionHeight;
     private int resolutionWidth;
+    
+    //amount of blocks of graphics to dev. the map with
     private int heightBlockAmount = 8;
     private int widthBlockAmount = 6;
 
@@ -40,4 +42,10 @@ public class GUI {
          */ 
     }
     
+    public void choseClassType(){
+        
+        /*
+         * lets user chose class type if they want
+         */
+    }
 }
